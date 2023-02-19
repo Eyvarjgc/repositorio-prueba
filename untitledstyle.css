@@ -5,6 +5,34 @@ body{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.container{
+    margin-top: 20px;
+    width: 50vw;
+    height: 50vh;
+    display: inline-block;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color:rgb(110, 213, 209) ;
+    width: 10vw;
+    padding-inline-start: 10px;
+    justify-content: center;
+    padding: 10px;
+    border: 2px black solid;
+    transition: all 0.5s;
+}
+nav ul li a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+nav ul:hover{
+    border-radius: 10px;
+    background-color: aquamarine;
+}
 header{
     background-color: aquamarine;
     border: 3px solid black;

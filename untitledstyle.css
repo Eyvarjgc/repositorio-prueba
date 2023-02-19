@@ -52,3 +52,7 @@ main p{
     border-radius: 10px;
     
 }
+figure a img{
+    border: 5px solid crimson;
+    border-radius: 30px;
+}

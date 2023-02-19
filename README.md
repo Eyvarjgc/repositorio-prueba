@@ -13,3 +13,7 @@ git add .
 git status -s
 git chekout ""
 si se pierde el id del ultimo commit (consola): git chekout "main" or "master"
+git branch -m "nombre de la rama" ""
+git reset ""
+git reset --hard ""
+git reflog mostrar ttodos los commits

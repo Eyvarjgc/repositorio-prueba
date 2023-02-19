@@ -15,13 +15,14 @@ nav ul{
     display: flex;
     list-style: none;
     background-color:rgb(110, 213, 209) ;
-    width: 10vw;
+    width: 50vw;
     padding-inline-start: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 10px;
     border: 2px black solid;
     transition: all 0.5s;
 }
+
 nav ul li a{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
